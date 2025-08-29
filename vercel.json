@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "OPENROUTER_API_KEY": "@openrouter_api_key",
+    "FEISHU_APP_ID": "@feishu_app_id",
+    "FEISHU_APP_SECRET": "@feishu_app_secret",
+    "FEISHU_APP_TOKEN": "@feishu_app_token",
+    "FEISHU_TABLE_ID": "@feishu_table_id"
+  }
+}
